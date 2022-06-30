@@ -50,7 +50,7 @@ const Navbar = (props) => {
           <a href="/" className="flex items-center scale-[1.1]">
             <img
               src="/logo1.webp"
-              className="mr-3 h-20 w-48 md:w-auto"
+              className="mr-3 h-20 w-48 md:w-auto scale-x-[0.7] scale-y-[0.8] sm:scale-[1]"
               alt="PR Logo"
             />
           </a>
