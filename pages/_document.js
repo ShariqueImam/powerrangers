@@ -19,7 +19,7 @@ class MyDocument extends Document {
                     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.0/gsap.min.js"></script>
 
                     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
-                    <link href="https://fonts.googleapis.com/css2?family=Kristi&display=swap" rel="stylesheet" />
+                    {/* <link href="https://fonts.googleapis.com/css2?family=Kristi&display=swap" rel="stylesheet" /> */}
 
                 </Head>
                 <body>
