@@ -7,9 +7,10 @@ function SplitTextToChars(textNode) {
     textSplit.forEach((letter, i) => {
       const span = document.createElement("span");
       span.textContent = letter;
-      span.style = `${letter === " " ? "min-width: 1rem;" : ""}z-index: ${
-        textSplit.length - i
-      }; position: relative; display: inline-block;`;
+      span.setAttribute('style', `${letter === " " ? "min-width:1rem;" : ""} z-index: ${textSplit.length - i}; position:relative; display:inline-block; `)
+      // span.style = `${letter === " " ? "min-width: 1rem;" : ""}z-index: ${
+      //   textSplit.length - i
+      // }; position: relative; display: inline-block;`;
       frag.appendChild(span);
     });
     textNode.textContent = "";
