@@ -15,7 +15,7 @@ function MyApp({ Component, pageProps }) {
           />
       </Head>
       <div className="overflow-x-hidden main-bg ">
-            <Component {...pageProps} h={han}/>
+            <Component {...pageProps} />
         <Footer />
       </div>
     </>

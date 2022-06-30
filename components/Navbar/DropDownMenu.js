@@ -11,7 +11,7 @@ const DropDownMenu = (props) => {
   // const onScroll = (val) => {
   //   props.onScroll(val);
   // };
-
+const handleClick =()=>{}
   return (
     <ul clasName={style.wrapper} style={{ fontFamily: "Poppins, sans-serif" }}>
       <Link href="/">

@@ -4,10 +4,12 @@ import Home from "./../components/Home/Home";
 import HomeGame from "../components/HomeGame/HomeGame";
 import client from "./api/client";
 import Newsletter from "../components/Newsletter/Newsletter";
-
+import Navbar from "../components/Navbar/Navbar";
 const App = (props) => {
   return (
     <div className="flex flex-col">
+            <Navbar/>
+
       <Home />
       <HomeGame data={props.homeGames} />
       <Features />

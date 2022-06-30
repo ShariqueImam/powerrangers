@@ -95,7 +95,7 @@ const Navbar = (props) => {
                 isMenuOpen ? "flex" : "hidden"
               } items-center justify-center`}
             >
-              <DropDownMenu onMenuClick={handleSmallMenu} />
+              <DropDownMenu />
             </div>
             <div
               style={{ fontFamily: "Poppins, sans-serif" }}
