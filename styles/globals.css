@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.t1 {
+  background: linear-gradient(-45deg, #f9f8f4,#ffc900,#ffffff);
+  background-size: 400% 400%;
+  animation: gradient 4s ease infinite;
+  background-clip: text;
+}
+.t {
+  background: linear-gradient(-45deg, #1c0d10, #2a1318);
+  background-size: 400% 400%;
+  animation: gradient 3s ease infinite;
+
+  clip-path: ellipse(75% 100% at 50% 100%);
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.main-bg {
+  background: linear-gradient(#070029, #070022, #2a1318);
+}
+
+.h {
+  background: url("https://res.cloudinary.com/shariqcloud/image/upload/v1656337710/Power%20Rangers/slider_img_bg_oxpg0v.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-attachment: auto;
+  height: 100vh;
+  width: 100vw;
+}
+
