@@ -1,7 +1,6 @@
 import "../styles/globals.css";
 import Head from "next/head";
-import screenWidth from "../hooks/windowSize";
-import Navbar from '../components/Navbar/Navbar'
+
 import Footer from '../components/Footer/Footer'
 
 function MyApp({ Component, pageProps }) {
@@ -16,8 +15,7 @@ function MyApp({ Component, pageProps }) {
           />
       </Head>
       <div className="overflow-x-hidden main-bg ">
-        <Navbar />
-            <Component {...pageProps} />
+            <Component {...pageProps} h={han}/>
         <Footer />
       </div>
     </>

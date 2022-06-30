@@ -1,6 +1,5 @@
 import React from "react";
 import Link from "next/link";
-import { GiConsoleController } from "react-icons/gi";
 const style = {
   wrapper:
     "bg-gray-500 flex flex-col text-md md:text-md tracking-wider mx-auto",
@@ -12,9 +11,7 @@ const DropDownMenu = (props) => {
   // const onScroll = (val) => {
   //   props.onScroll(val);
   // };
-  const handleClick = () => {
-      props.onMenuClick();
-  };
+
   return (
     <ul clasName={style.wrapper} style={{ fontFamily: "Poppins, sans-serif" }}>
       <Link href="/">

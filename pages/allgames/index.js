@@ -2,6 +2,7 @@ import React from "react";
 import AllGames from "../../components/AllGames/AllGames";
 import client from "../api/client";
 import { NextSeo } from "next-seo";
+import Navbar from "../../components/Navbar/Navbar";
 const All = (props) => {
   return (
     <div>
@@ -9,6 +10,8 @@ const All = (props) => {
         title={`All Power Ranger Games`}
         description="All cool power ranger games"
       />{" "}
+            <Navbar/>
+
       <AllGames data={props.allGames} />
     </div>
   );

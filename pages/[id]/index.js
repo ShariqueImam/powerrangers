@@ -1,6 +1,7 @@
 import React from "react";
 import Play from "../../components/Play/Play";
 import client from "../api/client";
+import Navbar from "../../components/Navbar/Navbar";
 const style = {
   wrapper: "",
 };
@@ -8,7 +9,8 @@ const style = {
 const SingleGameDetails = (props) => {
   return (
     <div>
-     
+           <Navbar/>
+
       <Play data={props.games} />
     </div>
   );
