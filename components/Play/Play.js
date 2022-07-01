@@ -34,7 +34,7 @@ const gameData  = data.filter(item => item.id == id)
            {gameData[0].metaname}
         </h2>
         <div className={style.singleGameContainer}>
-        <PlayThGame gameData={gameData} similarGameData={data}/>
+        <PlayTheGame gameData={gameData} similarGameData={data}/>
         </div>
       </div>
     </div>
