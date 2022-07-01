@@ -11,7 +11,7 @@ const SingleGameDetails = (props) => {
     <div>
            <Navbar/>
 
-      <Play data={props.games} />
+      {/* <Play data={props.games} /> */}
     </div>
   );
 };
