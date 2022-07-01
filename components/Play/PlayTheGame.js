@@ -14,7 +14,8 @@ const style = {
   otherGameGrid:
     "text-2xl md:text-4xl text-[#ffc900] mt-16 mx-auto text-center my-2",
   description: "mt-6 w-[100%] md:w-[100%]",
-  likeContainer: "flex max-w-fit px-2 md:px-4 md:py-1 flex-col items-center mx-auto md:mx-24",
+  likeContainer:
+    "flex max-w-fit px-2 md:px-4 md:py-1 flex-col items-center mx-auto md:mx-24",
   likeText:
     "text-sm md:text-xl mx-2 md:mx-4 mt-2 transform text-[#ffc900] my-3",
 };
@@ -27,11 +28,7 @@ const PlayTheGame = ({ gameData, similarGameData }) => {
         width > 750 && width < 1000 ? "400px" : width > 1000 ? "520px" : "350px"
       } `;
       elRef.current.firstElementChild.style.width = `${
-        width > 750 && width < 1000
-          ? "650px"
-          : width > 1000
-          ? "750px"
-          : "350px"
+        width > 750 && width < 1000 ? "650px" : width > 1000 ? "750px" : "350px"
       }`;
     }
   });
@@ -68,7 +65,12 @@ const PlayTheGame = ({ gameData, similarGameData }) => {
       }
     );
   };
-
+  let sum =0
+  let ta = gameData[0].rating;
+  for (let b of ta) {
+    sum += +b;
+  }
+  let a =sum/ta.length;
   return (
     <div className={style.wrapper}>
       <div
@@ -104,13 +106,12 @@ const PlayTheGame = ({ gameData, similarGameData }) => {
             starHoverColor="#ffc900"
             starDimension="35px"
           />
+          <p className="text-sm text-[#ffc900] my-2">
+            {a.toFixed(2)} out of 5. By {ta.length} people
+          </p>
         </div>
 
-        <h2
-          className={style.gameNameHeading}
-        >
-          Play {gameData[0].name} Game
-        </h2>
+        <h2 className={style.gameNameHeading}>Play {gameData[0].name} Game</h2>
         <h2 className={style.para}>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
           non unde, quod inventore quaerat vero aliquid, dolorem maiores
@@ -122,11 +123,7 @@ const PlayTheGame = ({ gameData, similarGameData }) => {
         </h2>
       </div>
       <div>
-        <h2
-          className={style.otherGameGrid}
-        >
-          Similar Games
-        </h2>
+        <h2 className={style.otherGameGrid}>Similar Games</h2>
         <PlayGameGrid data={similarGameData.slice(0, 4)} />
       </div>
     </div>

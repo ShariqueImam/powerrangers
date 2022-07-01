@@ -29,7 +29,7 @@ const Contact = () => {
         </h2>
 
         <div className={style.singleContactContainer}>
-          <AiOutlineMail className="text-3xl text-blue-900 bg-blue-150 rounded-full p-1 mx-4" />
+          <AiOutlineMail className="text-3xl text-[#ffc900] bg-blue-150 rounded-full p-1 mx-4" />
           <a href="mailto:webmaster@example.com">
             <h2 className={style.contactContent}>
               replymebycontactus@gmail.com
