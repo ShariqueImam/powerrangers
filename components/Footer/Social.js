@@ -36,10 +36,10 @@ const Social = () => {
         <BsTwitter className="text-2xl" />
       </a>
       <a
-        aria-label="link to  account twitter"
+        aria-label="link to  account youtube"
         className={style.social}
         target="_black"
-        href="http://www.twitter.com"
+        href="http://www.youtube.com"
       >
         <AiFillYoutube className="text-2xl" />
       </a>
