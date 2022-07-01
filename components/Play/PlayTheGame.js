@@ -108,7 +108,6 @@ const PlayTheGame = ({ gameData, similarGameData }) => {
 
         <h2
           className={style.gameNameHeading}
-          style={{ fontFamily: "Yeseva One, cursive" }}
         >
           Play {gameData[0].name} Game
         </h2>
@@ -125,7 +124,6 @@ const PlayTheGame = ({ gameData, similarGameData }) => {
       <div>
         <h2
           className={style.otherGameGrid}
-          style={{ fontFamily: "Yeseva One, cursive" }}
         >
           Similar Games
         </h2>

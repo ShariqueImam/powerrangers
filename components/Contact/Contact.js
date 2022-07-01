@@ -15,7 +15,7 @@ const style = {
 };
 const Contact = () => {
   return (
-    <div className={style.wrapper}>
+    <div className={style.wrapper}  style={{ fontFamily: 'Poppins, sans-serif' }}>
             <NextSeo
         title={`Contact Us`}
         description="Contact online power ranger games free"
@@ -24,7 +24,6 @@ const Contact = () => {
       <div className={style.contactContainer}>
         <h2
           className={style.smallHeading}
-          style={{ fontFamily: "Yeseva One, cursive" }}
         >
           Contact Details
         </h2>

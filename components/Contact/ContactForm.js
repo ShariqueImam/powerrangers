@@ -90,10 +90,9 @@ const ContactForm = () => {
     messageReset();
   };
   return (
-    <div className={style.wrapper}>
+    <div className={style.wrapper}  style={{ fontFamily: 'Poppins, sans-serif' }}>
       <h2
         className={style.smallHeading}
-        style={{ fontFamily: "Yeseva One, cursive" }}
       >
         Send Message
       </h2>
