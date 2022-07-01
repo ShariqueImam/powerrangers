@@ -15,10 +15,10 @@ const style = {
 };
 
 
-const Play = ({data}) => {
-const router = useRouter()
+const Play = ({data,id}) => {
+// const router = useRouter()
 // getting the id from the route that is called
-const { id } = router.query
+// const { id } = router.query
 const gameData  = data.filter(item => item.id == id)
   return (
     <div className={style.wrapper}>
