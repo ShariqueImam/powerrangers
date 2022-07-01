@@ -30,12 +30,11 @@ const gameData  = data.filter(item => item.id == id)
       <div className={style.gameContainer}>
         <h2
           className={style.smallHeading}
-          style={{ fontFamily: "Yeseva One, cursive" }}
         >
            {gameData[0].metaname}
         </h2>
         <div className={style.singleGameContainer}>
-        <PlayTheGame gameData={gameData} similarGameData={data}/>
+        <PlyThGame gameData={gameData} similarGameData={data}/>
         </div>
       </div>
     </div>

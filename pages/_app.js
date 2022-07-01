@@ -14,7 +14,8 @@ function MyApp({ Component, pageProps }) {
           content="Online power ranger games"
           />
       </Head>
-      <div className="overflow-x-hidden main-bg ">
+      <div className="overflow-x-hidden main-bg" style={{ fontFamily: "Poppins, sans-serif" }}
+>
             <Component {...pageProps} />
         <Footer />
       </div>
