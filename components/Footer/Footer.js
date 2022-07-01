@@ -10,13 +10,13 @@ const style = {
 
 const Footer = () => {
   return (
-    <div className="flex  justify-end items-end w-[100%] mx-auto">
+    <div className="flex  justify-center items-end w-[100%] mx-auto">
       {/* fire1 */}
       <img
         src="https://res.cloudinary.com/shariqcloud/image/upload/v1656325697/Power%20Rangers/fire_zhfuhk.webp"
         alt=""
         srcset=""
-        className="hidden lg:flex w-[11%]"
+        className="hidden lg:flex w-[11%] "
       />
       <div className={style.wrapper}>
         <div className={style.main}>
@@ -33,7 +33,7 @@ const Footer = () => {
         src="https://res.cloudinary.com/shariqcloud/image/upload/v1656325697/Power%20Rangers/fire_zhfuhk.webp"
         alt=""
         srcset=""
-        className="hidden lg:flex w-[11%]"
+        className="hidden lg:flex w-[11%] "
       />
     </div>
   );
