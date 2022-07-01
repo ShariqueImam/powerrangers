@@ -9,7 +9,7 @@ const style = {
 
 const Footer = () => {
   return (
-    <div className="flex  justify-end items-end w-[90%] mx-auto">
+    <div className="flex  justify-end items-end w-[100%] mx-auto">
       {/* fire1 */}
       <img
         src="https://res.cloudinary.com/shariqcloud/image/upload/v1656325697/Power%20Rangers/fire_zhfuhk.webp"

@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import axios from "axios";
 const style = {
-  wrapper: "bg-transparent w-[90%] md:w-[40%] mx-auto flex flex-col ",
+  wrapper: "bg-transparent w-[90%] md:w-[55%] mx-auto flex flex-col ",
   input:
     "px-3 bg-transparent ring-none outline-none placeholder:text-gray-100 text-gray-100 flex-1",
-  btn: "bg-[#ffc900]  px-4 md:px-6 py-2 md:py-4 rounded-full hover:scale-[0.95] transition duration-[400ms]",
-  heading: "text-[#ffc900] text-4xl  text-center my-12",
+  btn: "bg-[#ffc900]  px-3 md:px-4 py-2 md:py-4 rounded-full hover:scale-[0.95] transition duration-[400ms]",
+  heading: "text-[#ffc900] text-4xl text-center my-12",
 };
 const Newsletter = () => {
   const tokenWithWriteAccess =
