@@ -22,9 +22,9 @@ const MainFooter = () => {
         {/* logo */}
         <Image src="/logo.webp" height="100" width="120" alt="logo" />
         <h2 className={style.info}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci rem
-          officiis sapiente eius dolore nisi explicabo consectetur maiores quia
-          possimus.
+        Hey, I'm Ranger in power rangers online games. The free games
+            without flash player. The Power Rangers games online are a great way
+            to meet new people and have fun! Play More Games Here.
         </h2>
       </div>
       <div className={style.contact}>
