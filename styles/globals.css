@@ -42,3 +42,21 @@
   width: 100vw;
 }
 
+
+
+::-webkit-scrollbar{
+  width:10px;
+}
+
+::-webkit-scrollbar-track{
+  background: #070029;
+
+}
+::-webkit-scrollbar-thumb{
+  background: #ffc900;
+  
+}
+::-webkit-scrollbar-thumb:hover{
+  background: #ffc900;
+
+}
