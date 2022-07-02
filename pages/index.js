@@ -5,6 +5,7 @@ import HomeGame from "../components/HomeGame/HomeGame";
 import client from "./api/client";
 import Newsletter from "../components/Newsletter/Newsletter";
 import Navbar from "../components/Navbar/Navbar";
+import Content from "../components/Content/Content";
 const App = (props) => {
   return (
     <div className="flex flex-col">
@@ -12,6 +13,7 @@ const App = (props) => {
 
       <Home />
       <HomeGame data={props.homeGames} />
+      <Content  />
       <Features />
       <Newsletter />
     </div>

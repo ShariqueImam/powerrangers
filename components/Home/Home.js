@@ -5,7 +5,7 @@ import { GiGamepad } from "react-icons/gi";
 import { FaQuoteLeft } from "react-icons/fa";
 import { motion } from "framer-motion";
 import Link from "next/link";
-
+import screen from '../../hooks/windowSize'
 const variantsContainer = {
   hidden: {
     opacity: 0,
@@ -46,7 +46,7 @@ const style = {
 
 const Home = () => {
   const TextStyled = styled.p`
-    font-size: calc(32px + (64 - 32) * ((100vw - 320px) / (1600 - 320)));
+    font-size: calc(${screen.width>900 ? '1px' : '23px'} + (64 - 32) * ((100vw - 320px) / (1600 - 320)));
     font-family: poppins;
     font-weight: 500;
     margin: 0;
@@ -64,7 +64,7 @@ const Home = () => {
     gsap.from(
       chars,
       {
-        duration: 0.2,
+        duration: 0.06,
         opacity: 0,
         scale: 1,
         delay: 0.5,
@@ -92,13 +92,15 @@ const Home = () => {
         <div className={style.mainHeading}>
           <FaQuoteLeft className="" />
           <TextStyled ref={wavyTextRef} className="ml-4 my-2">
-            Hey, I’m Mosess, a longboard expert I will do detailed review of
-            longboards
+            Hey, I'm Ranger in power rangers online games. The free games
+            without flash player. The Power Rangers games online are a great way
+            to meet new people and have fun! Play More Games Here.
           </TextStyled>
         </div>
         <p className={style.para}>
-          My reviews are all unbiased and depend on true facts as of brand
-          value, consumer reviews, product features and much more....
+          Fans of all ages fell in love with the over-the-top special effects,
+          energetic music and bright costumes. As the owner of the franchise has
+          changed, so has this strong crew of heroes.
         </p>
         <motion.div
           variants={variantsBtnContainer}
