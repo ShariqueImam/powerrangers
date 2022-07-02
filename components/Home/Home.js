@@ -5,7 +5,7 @@ import { GiGamepad } from "react-icons/gi";
 import { FaQuoteLeft } from "react-icons/fa";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import screen from '../../hooks/windowSize'
+import useWindowSize from '../../hooks/windowSize'
 const variantsContainer = {
   hidden: {
     opacity: 0,
@@ -45,14 +45,14 @@ const style = {
 };
 
 const Home = () => {
+  const screen = useWindowSize()
   const TextStyled = styled.p`
-    font-size: calc(${screen.width>900 ? '1px' : '23px'} + (64 - 32) * ((100vw - 320px) / (1600 - 320)));
+    font-size: calc(${screen.width>900 ? '3.5px' : '23px'} + (64 - 32) * ((100vw - 320px) / (1600 - 320)));
     font-family: poppins;
     font-weight: 500;
     margin: 0;
     color: #ffc900;
   `;
-
   const wavyTextRef = useRef(null);
 
   useEffect(() => {

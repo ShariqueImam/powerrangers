@@ -12,8 +12,7 @@ const HomeGame = ({ data }) => {
   return (
     <div
       className={style.wrapper}
-      style={{ fontFamily: "Yeseva One, cursive" }}
-    >
+      style={{ fontFamily: 'Poppins, sans-serif' }}    >
       {/* adding the heading */}
       <h2 className={style.heading}>Power Ranger Games Online</h2>
       <h2 className={style.heading1}>Game Gallery</h2>

@@ -7,7 +7,7 @@ const style = {
 
 const GameGrid = ({ data }) => {
   return (
-    <div className={style.wrapper}>
+    <div className={style.wrapper}  style={{ fontFamily: 'Poppins, sans-serif' }}>
       {data && data.map((singleGame) => (
         <SingleGameImg
           thumbnail={singleGame.image}
