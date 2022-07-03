@@ -4,7 +4,7 @@ import { BiMouse } from "react-icons/bi";
 import { BsKeyboard } from "react-icons/bs";
 import { FaHeadphonesAlt } from "react-icons/fa";
 const style = {
-  wrapper: " w-[100vw] my-16",
+  wrapper: " w-[100vw] my-8",
   featuresContainer: "w-[90%] md:w-[70%] flex mx-auto justify-around flex-col md:flex-row mx-auto",
   imgStyle: "",
   singleFeature:' my-4 flex flex-col items-center justify-center ',

@@ -29,7 +29,7 @@ const MainFooter = () => {
       </div>
       <div className={style.contact}>
         <h2 className={style.heading}>Contact Us</h2>
-        <a href="mailto:webmaster@example.com" className="flex items-center">
+        <a href="mailto:replymebycontactus@gmail.com" className="flex items-center">
           <AiOutlineMail className="text-2xl text-[#ffc900] mx-auto mx-3"/>
           <h2 className={style.contactContent}>replymebycontactus@gmail.com</h2>
         </a>

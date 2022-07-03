@@ -8,7 +8,7 @@ const style = {
   head: "text-[#ffc900] border-b-2 border-gray-100 border-r-2 p-2",
   row: "text-gray-100 text-center",
   a: " border-b-2 border-gray-100 border-r-2 p-3 ",
-  below: "text-gray-100 text-center my-12",
+  below: "text-gray-100 text-center mt-4",
 };
 const Content = () => {
   return (

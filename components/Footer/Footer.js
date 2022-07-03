@@ -4,7 +4,7 @@ import Signature from "./Signature";
 import Social from "./Social";
 import MainFooter from "./MainFooter";
 const style = {
-  wrapper: "bg-[#] pt-24  ",
+  wrapper: "bg-[#] pt-12  ",
   main:'',
 };
 
